@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Application name="AeroCalcCore">
+    <LanguagePack name="FR">
+        <Messages>
+            <Message name=""></Message>
+            <Message name=""></Message>
+            <Message name=""></Message>
+            <Message name=""></Message>
+            <Message name=""></Message>
+            <Message name=""></Message>
+            <Message name=""></Message>
+            <Message name=""></Message>
+        </Messages>
+    </LanguagePack>
+</Application>

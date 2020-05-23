@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "AeroCalcCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AeroCalcCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AeroCalcCore.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AeroCalcCore/1.0.0": {
+      "type": "project",
+      "path": "../AeroCalcCore/AeroCalcCore.csproj",
+      "msbuildProject": "../AeroCalcCore/AeroCalcCore.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "AeroCalcCore >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/jean-christophe/.nuget/packages/": {},
@@ -34,7 +53,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/jean-christophe/Dev/AeroCalcCore/AeroCalcCore.csproj": {
+              "projectPath": "/home/jean-christophe/Dev/AeroCalcCore/AeroCalcCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

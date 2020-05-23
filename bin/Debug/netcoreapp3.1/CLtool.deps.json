@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CLtool/1.0.0": {
+        "dependencies": {
+          "AeroCalcCore": "1.0.0"
+        },
+        "runtime": {
+          "CLtool.dll": {}
+        }
+      },
+      "AeroCalcCore/1.0.0": {
+        "runtime": {
+          "AeroCalcCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CLtool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AeroCalcCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

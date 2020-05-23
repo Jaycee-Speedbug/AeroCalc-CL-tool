@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Application name="AeroCalcCore">
+    <Authors>
+        <Author>JCL</Author>
+    </Authors>
+    <Configuration version="1.0">
+        <Directories>
+            <Directory name="Models">models</Directory>
+            <Directory name="Scripts">scripts</Directory>
+            <Directory name="Configuration">config</Directory>
+        </Directories>
+        <Files>
+            <File name="Units">UnitsDictionary.csv</File>
+        </Files>
+        <Languages>
+            <Language name="french">
+                <File name="FR">fr.xml</File>
+            </Language>
+            <Language name="english">
+                <File name="EN">en.xml</File>
+            </Language>
+        </Languages>
+    </Configuration>
+    <Settings>
+        <Setting name="VerboseAllowed">True</Setting>
+        <Setting name="Verbose">False</Setting>
+    </Settings>
+    
+
+</Application>
+

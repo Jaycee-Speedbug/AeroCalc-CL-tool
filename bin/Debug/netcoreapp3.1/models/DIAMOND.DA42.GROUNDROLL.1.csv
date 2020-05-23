@@ -1,0 +1,16 @@
+OutputName;Hidden;OutputUnit;PileFactorValue;DiscretName;DiscretValue;PointFactorValue;OutputValue;BreakValue;SerieFactorValue;LayerFactorValue;PointFactorName;PointFactorUnit;SerieFactorName;SerieFactorUnit;LayerFactorName;LayerFactorUnit
+DIAMOND.DA42.GROUNDROLL.1;1;-1;1;WEIGHT;1300;1700;302,8;0;302,8;1;ATOM;-1;DIAMOND.DA42.GROUNDROLL.2;-1;;-1
+;;;;;;1300;227,2;0;302,8;1;;;;;;
+;;;;;;1700;353,8;0;353,8;1;;;;;;
+;;;;;;1300;264,7;0;353,8;1;;;;;;
+;;;;;;1700;402,4;0;402,4;1;;;;;;
+;;;;;;1300;301,6;0;402,4;1;;;;;;
+;;;;;;1700;473,7;0;473,7;1;;;;;;
+;;;;;;1300;353,2;0;473,7;1;;;;;;
+;;;;;;1700;557,2;0;557,2;1;;;;;;
+;;;;;;1300;416,5;0;557,2;1;;;;;;
+;;;;;;1700;726,9;0;726,9;1;;;;;;
+;;;;;;1300;537,6;0;726,9;1;;;;;;
+;;;;;;1700;611,3;0;611,3;1;;;;;;
+;;;;;;1300;824;0;611,3;1;;;;;;
+END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE

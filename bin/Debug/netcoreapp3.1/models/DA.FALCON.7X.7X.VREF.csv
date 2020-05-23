@@ -1,0 +1,7 @@
+OutputName;Hidden;OutputUnit;PileFactorValue;DiscretName;DiscretValue;PointFactorValue;OutputValue;BreakValue;SerieFactorValue;LayerFactorValue;PointFactorName;PointFactorUnit;SerieFactorName;SerieFactorUnit;LayerFactorName;LayerFactorUnit
+DA.FALCON.7X.7X.VREF;0;-1;1;;1;32300;95,6;0;1;1;GW;-1;;-1;;-1
+;;;;;;39100;105;0;1;1;;;;;;
+;;;;;;46900;115;0;1;1;;;;;;
+;;;;;;60000;130;0;1;1;;;;;;
+;;;;;;72800;143;0;1;1;;;;;;
+END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE;END_TABLE

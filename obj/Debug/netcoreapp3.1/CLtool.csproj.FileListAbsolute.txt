@@ -1,0 +1,16 @@
+/home/jean-christophe/Dev/CLtool/bin/Debug/netcoreapp3.1/CLtool
+/home/jean-christophe/Dev/CLtool/bin/Debug/netcoreapp3.1/CLtool.deps.json
+/home/jean-christophe/Dev/CLtool/bin/Debug/netcoreapp3.1/CLtool.runtimeconfig.json
+/home/jean-christophe/Dev/CLtool/bin/Debug/netcoreapp3.1/CLtool.runtimeconfig.dev.json
+/home/jean-christophe/Dev/CLtool/bin/Debug/netcoreapp3.1/CLtool.dll
+/home/jean-christophe/Dev/CLtool/bin/Debug/netcoreapp3.1/CLtool.pdb
+/home/jean-christophe/Dev/CLtool/bin/Debug/netcoreapp3.1/AeroCalcCore.dll
+/home/jean-christophe/Dev/CLtool/bin/Debug/netcoreapp3.1/AeroCalcCore.pdb
+/home/jean-christophe/Dev/CLtool/obj/Debug/netcoreapp3.1/CLtool.csprojAssemblyReference.cache
+/home/jean-christophe/Dev/CLtool/obj/Debug/netcoreapp3.1/CLtool.AssemblyInfoInputs.cache
+/home/jean-christophe/Dev/CLtool/obj/Debug/netcoreapp3.1/CLtool.AssemblyInfo.cs
+/home/jean-christophe/Dev/CLtool/obj/Debug/netcoreapp3.1/CLtool.csproj.CoreCompileInputs.cache
+/home/jean-christophe/Dev/CLtool/obj/Debug/netcoreapp3.1/CLtool.csproj.CopyComplete
+/home/jean-christophe/Dev/CLtool/obj/Debug/netcoreapp3.1/CLtool.dll
+/home/jean-christophe/Dev/CLtool/obj/Debug/netcoreapp3.1/CLtool.pdb
+/home/jean-christophe/Dev/CLtool/obj/Debug/netcoreapp3.1/CLtool.genruntimeconfig.cache
