@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using AeroCalcCore;
 
 namespace CLtool
@@ -10,7 +11,7 @@ namespace CLtool
 
         static void Main(string[] args) {
         
-            AeroCalcCommandProcessor CommandProcessor = new AeroCalcCommandProcessor();
+            AeroCalcCommandProcessor CommandProcessor = new AeroCalcCommandProcessor("config" + Path.DirectorySeparatorChar + "configuration.xml");
             AeroCalcCommand Command;
             bool run = true;
 

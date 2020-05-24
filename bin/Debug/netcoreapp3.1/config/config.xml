@@ -25,6 +25,9 @@
     <Settings>
         <Setting name="VerboseAllowed">True</Setting>
         <Setting name="Verbose">False</Setting>
+        <Setting name="UnitsEnabled">False</Setting>
+        <Setting name="PublicVersion"></Setting>
+        <Setting name="PublicAppName"></Setting>
     </Settings>
     
 
