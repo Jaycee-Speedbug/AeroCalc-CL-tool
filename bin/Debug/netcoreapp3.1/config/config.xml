@@ -28,6 +28,7 @@
         <Setting name="UnitsEnabled">False</Setting>
         <Setting name="PublicVersion"></Setting>
         <Setting name="PublicAppName"></Setting>
+        <Setting name="Logger">True</Setting>
     </Settings>
     
 

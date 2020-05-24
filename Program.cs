@@ -11,7 +11,7 @@ namespace CLtool
 
         static void Main(string[] args) {
         
-            AeroCalcCommandProcessor CommandProcessor = new AeroCalcCommandProcessor("config" + Path.DirectorySeparatorChar + "configuration.xml");
+            AeroCalcCommandProcessor CommandProcessor = new AeroCalcCommandProcessor("config" + Path.DirectorySeparatorChar + "config.xml");
             AeroCalcCommand Command;
             bool run = true;
 

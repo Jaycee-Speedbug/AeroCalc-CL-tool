@@ -3,14 +3,38 @@
 <Application name="AeroCalcCore">
     <LanguagePack name="FR">
         <Messages>
-            <Message name=""></Message>
-            <Message name=""></Message>
-            <Message name=""></Message>
-            <Message name=""></Message>
-            <Message name=""></Message>
-            <Message name=""></Message>
-            <Message name=""></Message>
-            <Message name=""></Message>
+            <Message id="10">Fermeture de AeroCalc Command Line...</Message>
+            <Message id="100">Commande traitée avec succès</Message>
+            <Message id="110">Interprète de commande initialisé avec succès</Message>
+            <Message id="910">Mode VERBOSE activé</Message>
+            <Message id="911">Mode VERBOSE désactivé</Message>
+            <Message id="200">Calcul traité avec succès</Message>
+            <Message id="500">Modèles numériques chargés avec succès</Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id="90001">Echec de l'intialisation du processeur</Message>
+            <Message id="90002">Impossible d'initialiser le processeur une seconde fois</Message>
+            <Message id="90003">La commande n'a pas pu être traitée</Message>
+            <Message id="90021">La commande est vide</Message>
+            <Message id="90022">La commande n'est pas reconnue</Message>
+            <Message id="90023">La commande n'est pas supportée par cette version du logiciel</Message>
+            <Message id="90050">La commande VERBOSE est vérouillée</Message>
+            <Message id="90100">Commande non traitée, erreur majeure dans le processeur</Message>
+            <Message id="90101">Calcul non traité, donnée(s) numérique(s) manquante(s)</Message>
+            <Message id="90500">Aucun modèle numérique n'est chargé en mémoire</Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
+            <Message id=""></Message>
         </Messages>
     </LanguagePack>
 </Application>
