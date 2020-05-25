@@ -14,7 +14,7 @@ namespace CLtool
             AeroCalcCommandProcessor CommandProcessor = new AeroCalcCommandProcessor();
             AeroCalcCommand Command;
             bool run = true;
-            string configurationFile = "config" + Path.DirectorySeparatorChar + "config.xml";
+            string configurationFile = "config" + Path.DirectorySeparatorChar + "_config.xml";
 
             // Initialisation & Accueil
             Command = CommandProcessor.process(AeroCalcCommand.CMD_WORD_INIT_INTERPRETER + " " + configurationFile);
