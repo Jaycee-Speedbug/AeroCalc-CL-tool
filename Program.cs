@@ -11,12 +11,13 @@ namespace CLtool
 
         static void Main(string[] args) {
         
-            AeroCalcCommandProcessor CommandProcessor = new AeroCalcCommandProcessor("config" + Path.DirectorySeparatorChar + "config.xml");
+            AeroCalcCommandProcessor CommandProcessor = new AeroCalcCommandProcessor();
             AeroCalcCommand Command;
             bool run = true;
+            string configurationFile = "config" + Path.DirectorySeparatorChar + "config.xml";
 
             // Initialisation & Accueil
-            Command = CommandProcessor.process(AeroCalcCommand.CMD_WORD_INIT_INTERPRETER);
+            Command = CommandProcessor.process(AeroCalcCommand.CMD_WORD_INIT_INTERPRETER + " " + configurationFile);
             if (Command.eventCode == AeroCalcCommand.EVENTCODE_INIT_SUCCESSFULL) {
                 // Initialisation réussie
                 Console.WriteLine(Command.txtResult);
