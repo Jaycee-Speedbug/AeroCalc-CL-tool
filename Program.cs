@@ -36,7 +36,7 @@ namespace CLtool
             }
             else {
                 // Echec de l'initialisation
-                Console.WriteLine("Exiting AirCalc...");
+                Console.WriteLine("Major initialization error, exiting AeroCalc...");
                 DateTime instant = DateTime.Now;
                 instant = instant.AddSeconds(2.5);
                 while (DateTime.Now.Second < instant.Second) { }
