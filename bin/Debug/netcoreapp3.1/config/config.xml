@@ -11,7 +11,8 @@
             <Directory name="Configuration">config</Directory>
         </Directories>
         <Files>
-            <File name="Units">UnitsDictionary.csv</File>
+            <!--File name="Units">UnitsDictionary.csv</File-->
+            <File name="Units">UnitsDictionary.xml</File>
         </Files>
         <Languages>
             <Language name="french">
@@ -23,12 +24,12 @@
         </Languages>
     </Configuration>
     <Settings>
-        <Setting name="VerboseAllowed">True</Setting>
-        <Setting name="Verbose">False</Setting>
-        <Setting name="UnitsEnabled">False</Setting>
-        <Setting name="PublicVersion"></Setting>
-        <Setting name="PublicAppName"></Setting>
-        <Setting name="Logger">True</Setting>
+        <Setting name="VerboseAllowed">true</Setting>
+        <Setting name="Verbose">false</Setting>
+        <Setting name="UnitsEnabled">true</Setting>
+        <Setting name="PublicVersion">DEV</Setting>
+        <Setting name="PublicAppName">AeroCalc Command Line</Setting>
+        <Setting name="Logger">true</Setting>
     </Settings>
     
 
