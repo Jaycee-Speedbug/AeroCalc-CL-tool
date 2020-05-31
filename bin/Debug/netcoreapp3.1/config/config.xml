@@ -9,14 +9,15 @@
             <Directory name="Models">models</Directory>
             <Directory name="Scripts">scripts</Directory>
             <Directory name="Configuration">config</Directory>
+            <Directory name="Logs">logs</Directory>
         </Directories>
         <Files>
             <!--File name="Units">UnitsDictionary.csv</File-->
             <File name="Units">UnitsDictionary.xml</File>
         </Files>
         <Languages>
-            <Language name="FR" filename="fr.xml">french</Language>
-            <Language name="EN" filename="en.xml">english</Language>
+            <Language shortname="FR" name="french">fr.xml</Language>
+            <Language shortname="EN" name="english">en.xml</Language>
         </Languages>
     </Configuration>
     <Settings>
@@ -26,6 +27,7 @@
         <Setting name="PublicVersion">DEV</Setting>
         <Setting name="PublicAppName">AeroCalc Command Line</Setting>
         <Setting name="Logger">true</Setting>
+        <Setting name="Language">FR</Setting>
     </Settings>
     
 
