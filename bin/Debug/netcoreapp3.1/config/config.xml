@@ -15,12 +15,8 @@
             <File name="Units">UnitsDictionary.xml</File>
         </Files>
         <Languages>
-            <Language name="french">
-                <File name="FR">fr.xml</File>
-            </Language>
-            <Language name="english">
-                <File name="EN">en.xml</File>
-            </Language>
+            <Language name="FR" filename="fr.xml">french</Language>
+            <Language name="EN" filename="en.xml">english</Language>
         </Languages>
     </Configuration>
     <Settings>
