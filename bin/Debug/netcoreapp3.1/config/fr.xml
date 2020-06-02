@@ -34,10 +34,12 @@
             <Message id="10021">La commande est vide</Message>
             <Message id="10022">La commande n'est pas reconnue</Message>
             <Message id="10023">La commande n'est pas supportée par cette version du logiciel</Message>
+            <Message id="10030">Le dictionnaire des unités est vide</Message>
             <Message id="10050">Impossible de modifier le mode VERBOSE, celui-ci est vérouillé</Message>
-            <Message id="10100">Commande non traitée, erreur majeure de l'interpreteur de commande</Message>
-            <Message id="10101">Calcul non traité, donnée(s) numérique(s) manquante(s)</Message>
-            <Message id="10101">Calcul non traité, modèle numérique manquant</Message>
+            <Message id="10100">Commande non traitée, erreur majeure du processeur de commande</Message>
+            <Message id="10110">Calcul non traité, erreur du processeur de calcul</Message>
+            <Message id="10111">Calcul non traité, facteur manquant</Message>
+            <Message id="10112">Calcul non traité, modèle numérique manquant</Message>
             <Message id="10200">Aucune unité n'est chargée en mémoire</Message>
             <Message id="10500">Aucun modèle de calcul n'est chargé en mémoire</Message>
             <Message id="900">
