@@ -64,7 +64,7 @@ namespace CLtool
 
                 // Affichage du résultat des commandes
                 Console.WriteLine(Command.txtResult);
-                if (Command.eventCode <= AeroCalcCommand.EVENTCODE_INIT_VALUE)
+                if (Command.eventCode <= AeroCalcCommand.EVENTCODE_INITIAL)
                 {
                     // Echec du traitement de la commande, ajout du commentaire en seconde ligne
                     Console.WriteLine(Command.txtComment);
