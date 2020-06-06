@@ -34,45 +34,23 @@ namespace CLtool
 
             // Initialisation & Accueil
             Command = CommandProcessor.process(AeroCalcCommand.CMD_WORD_INIT_INTERPRETER + cmdLineOptions);
-            Console.WriteLine(Command.txtResult);
-            if (Command.eventCode < AeroCalcCommand.EVENTCODE_INITIAL)
-            {
-                // Echec de l'initialisation
-                DateTime instant = DateTime.Now;
-                instant = instant.AddSeconds(2.5);
-                while (DateTime.Now.Second < instant.Second) { }
-                run = false;
-            }
             // Boucle principale de l'interpréteur de commandes en ligne
             while (run)
             {
-
-                // Prompt
-                Console.Write("--o-Ô-o--");
-
-                // Lecture de la console et transfert vers le processeur de commande
-                Command = CommandProcessor.process(Console.ReadLine());
-                // Affichage de la réponse du processeur
                 Console.WriteLine(Command.txtResult);
-
-                // Traitement particulier de la commande EXIT
-                if (Command.eventCode == AeroCalcCommand.EVENTCODE_EXIT_REQUESTED)
+                // Traitement particulier de la commande EXIT (User ou System)
+                if (Command.isExit())
                 {
                     DateTime instant = DateTime.Now;
                     instant = instant.AddSeconds(2.5);
                     while (DateTime.Now.Second < instant.Second) { }
                     break;
                 }
-
-                // Affichage du résultat des commandes
-                /*
-                if (Command.eventCode <= AeroCalcCommand.EVENTCODE_INITIAL)
-                {
-                    // Echec du traitement de la commande, ajout du commentaire en seconde ligne
-                    Console.WriteLine(Command.txtComment);
-                }
-                */
-
+                // Prompt
+                Console.Write("--o-Ô-o--");
+                // Lecture de la console et transfert vers le processeur de commande
+                Command = CommandProcessor.process(Console.ReadLine());
+                // Affichage de la réponse du processeur
             }
 
         } // Main()

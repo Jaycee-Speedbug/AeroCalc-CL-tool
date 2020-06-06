@@ -5,18 +5,17 @@
         <Messages>
             <Message id="10">Fermeture de AeroCalc Command Line...</Message>
             <Message id="100">Commande traitée avec succès</Message>
-            <Message id="110">
-                Interprète de commande initialisé !\n
-                *****************************************\n
-                *                                       *\n
-                *              AeroCalc CL              *\n
-                *                                       *\n
-                * Flight Performance Computer           *\n
-                * Command Line version                  *\n
-                *                                       *\n
-                * PetitLu AeroDevelopment (c) 2020      *\n
-                *                                       *\n
-                *****************************************\n
+            <Message id="110">Interprète de commande initialisé !
+                *****************************************
+                *                                       *
+                *              AeroCalc CL              *
+                *                                       *
+                * Flight Performance Computer           *
+                * Command Line version                  *
+                *                                       *
+                * PetitLu AeroDevelopment (c) 2020      *
+                *                                       *
+                *****************************************
             </Message>
             <Message id="910">Mode VERBOSE activé</Message>
             <Message id="911">Mode VERBOSE désactivé</Message>
@@ -30,6 +29,7 @@
             <Message id="10006">Initialisation impossible, erreur non reconnue lors de la configuration</Message>
             <Message id="10007">Initialisation impossible, erreur lors de la lecture du fichier des unités</Message>
             <Message id="10008">Initialisation impossible, erreur lors de la lecture du fichier du pack de langue</Message>
+            <Message id="10010">Commande non traitée</Message>
             <!-- Message id="10020">La commande n'a pas pu être traitée, erreur dans le processeur</Message -->
             <Message id="10021">La commande est vide</Message>
             <Message id="10022">La commande n'est pas reconnue</Message>
@@ -43,16 +43,16 @@
             <Message id="10200">Aucune unité n'est chargée en mémoire</Message>
             <Message id="10500">Aucun modèle de calcul n'est chargé en mémoire</Message>
             <Message id="900">
-                ************  AeroCalc  HELP  ************\n
-                Commands:\n
-                HELP         : Obtenir de l'aide\n
-                VERBOSE      : Mode fournissant des informations étendues pendant le traitement des commandes\n
-                CONVERT      : Conversion entre différentes unités\n
-                LOAD MODEL   : Chargement des modèles numériques\n
-                LIST MODEL   : Liste des modèles numériques en mémoire\n
+                ************  AeroCalc  HELP  ************
+                Commands:
+                HELP         : Obtenir de l'aide
+                VERBOSE      : Mode fournissant des informations étendues pendant le traitement des commandes
+                CONVERT      : Conversion entre différentes unités
+                LOAD MODEL   : Chargement des modèles numériques
+                LIST MODEL   : Liste des modèles numériques en mémoire
                 LIST UNIT    : Liste des unités utilisables
-                CATALOG      : Liste des modèles numériques présant dans le répertoire des modèles et pouvant être chargés en mémoire\n
-                EXIT         : Quitter AeroCalc\n
+                CATALOG      : Liste des modèles numériques présant dans le répertoire des modèles et pouvant être chargés en mémoire
+                EXIT         : Quitter AeroCalc
             </Message>
         </Messages>
     </LanguagePack>
