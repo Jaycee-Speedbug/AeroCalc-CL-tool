@@ -19,16 +19,17 @@
             </Message>
             <Message id="910">Mode VERBOSE activé</Message>
             <Message id="911">Mode VERBOSE désactivé</Message>
-            <Message id="200">Calcul traité avec succès</Message>
-            <Message id="500">Modèles numériques chargés avec succès</Message>
+            <Message id="200">Calcul $0 traité avec succès</Message>
+            <Message id="500">$0 modèle(s) numérique(s) chargé(s) avec succès</Message>
+            <Message id="550">$0 unité(s) utilisable(s) dans la librairie</Message>
             <Message id="10001">Echec de l'intialisation du processeur</Message>
             <Message id="10002">Impossible d'initialiser le processeur une seconde fois</Message>
             <Message id="10003">Initialisation impossible, pas de fichier de configuration</Message>
-            <Message id="10004">Initialisation impossible, erreur de lecture du fichier de configuration</Message>
-            <Message id="10005">Initialisation impossible, erreur non reconnue lors de l'accès au fichier de configuration</Message>
+            <Message id="10004">Initialisation impossible, erreur de lecture du fichier de configuration $0</Message>
+            <Message id="10005">Initialisation impossible, erreur non reconnue lors de l'accès au fichier de configuration $0</Message>
             <Message id="10006">Initialisation impossible, erreur non reconnue lors de la configuration</Message>
-            <Message id="10007">Initialisation impossible, erreur lors de la lecture du fichier des unités</Message>
-            <Message id="10008">Initialisation impossible, erreur lors de la lecture du fichier du pack de langue</Message>
+            <Message id="10007">Initialisation impossible, erreur lors de la lecture du fichier des unités $0</Message>
+            <Message id="10008">Initialisation impossible, erreur lors de la lecture du fichier du pack de langue $0</Message>
             <Message id="10010">Commande non traitée</Message>
             <!-- Message id="10020">La commande n'a pas pu être traitée, erreur dans le processeur</Message -->
             <Message id="10021">La commande est vide</Message>
@@ -38,8 +39,8 @@
             <Message id="10050">Impossible de modifier le mode VERBOSE, celui-ci est vérouillé</Message>
             <Message id="10100">Commande non traitée, erreur majeure du processeur de commande</Message>
             <Message id="10110">Calcul non traité, erreur du processeur de calcul</Message>
-            <Message id="10111">Calcul non traité, facteur manquant</Message>
-            <Message id="10112">Calcul non traité, modèle numérique manquant</Message>
+            <Message id="10111">Calcul non traité, facteur $0 manquant</Message>
+            <Message id="10112">Calcul non traité, modèle numérique $0 manquant</Message>
             <Message id="10200">Aucune unité n'est chargée en mémoire</Message>
             <Message id="10500">Aucun modèle de calcul n'est chargé en mémoire</Message>
             <Message id="900">

@@ -51,6 +51,13 @@ namespace CLtool
                 // Lecture de la console et transfert vers le processeur de commande
                 Command = CommandProcessor.process(Console.ReadLine());
                 // Affichage de la réponse du processeur
+
+                // * DEBUG
+                /*
+                Command = CommandProcessor.process("LIST UNIT");
+                Console.WriteLine(Command.txtResult);
+                run = false;
+                */
             }
 
         } // Main()
