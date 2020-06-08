@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Messages avec id < 10000 : Pas d'erreur
+    Ces messages sont affichés si un résultat numérique n'est pas fourni, uniquement.
+    Si un message texte est préparé par le processeur, alors le message trouvé ici sera ajouté après.
+Messages avec id > 10000 : Erreur
 
+$0, $1, ... sont les codes substitués avec les informations fournies par le processeur
+
+-->
 <Application name="AeroCalcCore">
     <LanguagePack name="FR">
         <Messages>
             <Message id="10">Fermeture de AeroCalc Command Line...</Message>
             <Message id="100">Commande traitée avec succès</Message>
-            <Message id="110">Interprète de commande initialisé !
-                *****************************************
-                *                                       *
-                *              AeroCalc CL              *
-                *                                       *
-                * Flight Performance Computer           *
-                * Command Line version                  *
-                *                                       *
-                * PetitLu AeroDevelopment (c) 2020      *
-                *                                       *
-                *****************************************
-            </Message>
+            <Message id="110">*****************************************
+                              *              AeroCalc CL              *
+                              *                                       *
+                              * Flight Performance Computer           *
+                              * Command Line version                  *
+                              *                                       *
+                              * PetitLu AeroDevelopment (c) 2020      *
+                              *                                       *
+                              *****************************************</Message>
             <Message id="910">Mode VERBOSE activé</Message>
             <Message id="911">Mode VERBOSE désactivé</Message>
             <Message id="200">Calcul $0 traité avec succès</Message>
@@ -43,18 +48,16 @@
             <Message id="10112">Calcul non traité, modèle numérique $0 manquant</Message>
             <Message id="10200">Aucune unité n'est chargée en mémoire</Message>
             <Message id="10500">Aucun modèle de calcul n'est chargé en mémoire</Message>
-            <Message id="900">
-                ************  AeroCalc  HELP  ************
-                Commands:
-                HELP         : Obtenir de l'aide
-                VERBOSE      : Mode fournissant des informations étendues pendant le traitement des commandes
-                CONVERT      : Conversion entre différentes unités
-                LOAD MODEL   : Chargement des modèles numériques
-                LIST MODEL   : Liste des modèles numériques en mémoire
-                LIST UNIT    : Liste des unités utilisables
-                CATALOG      : Liste des modèles numériques présant dans le répertoire des modèles et pouvant être chargés en mémoire
-                EXIT         : Quitter AeroCalc
-            </Message>
+            <Message id="900">************  AeroCalc  HELP  ************
+                              Commands:
+                              HELP         : Obtenir de l'aide
+                              VERBOSE      : Mode fournissant des informations étendues pendant le traitement des commandes
+                              CONVERT      : Conversion entre différentes unités
+                              LOAD MODEL   : Chargement des modèles numériques
+                              LIST MODEL   : Liste des modèles numériques en mémoire
+                              LIST UNIT    : Liste des unités utilisables
+                              CATALOG      : Liste des modèles numériques présant dans le répertoire des modèles et pouvant être chargés en mémoire
+                              EXIT         : Quitter AeroCalc</Message>
         </Messages>
     </LanguagePack>
 </Application>

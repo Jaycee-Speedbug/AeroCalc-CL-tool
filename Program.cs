@@ -32,11 +32,13 @@ namespace CLtool
                 }
             }
 
-            // Initialisation & Accueil
+            // Première commande : Initialisation & Accueil
             Command = CommandProcessor.process(AeroCalcCommand.CMD_WORD_INIT_INTERPRETER + cmdLineOptions);
+
             // Boucle principale de l'interpréteur de commandes en ligne
             while (run)
             {
+                // Affichage de la réponse du processeur
                 Console.WriteLine(Command.txtResult);
                 // Traitement particulier de la commande EXIT (User ou System)
                 if (Command.isExit())
@@ -50,11 +52,12 @@ namespace CLtool
                 Console.Write("--o-Ô-o--");
                 // Lecture de la console et transfert vers le processeur de commande
                 Command = CommandProcessor.process(Console.ReadLine());
-                // Affichage de la réponse du processeur
+
+
 
                 // * DEBUG
                 /*
-                Command = CommandProcessor.process("LIST UNIT");
+                Command = CommandProcessor.process("LOAD MODEL *");
                 Console.WriteLine(Command.txtResult);
                 run = false;
                 */
