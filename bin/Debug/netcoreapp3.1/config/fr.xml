@@ -24,6 +24,7 @@ $0, $1, ... sont les codes substitués avec les informations fournies par le pro
                               *****************************************</Message>
             <Message id="910">Mode VERBOSE activé</Message>
             <Message id="911">Mode VERBOSE désactivé</Message>
+            <Message id="912">Mode VERBOSE déjà activé</Message>
             <Message id="200">Calcul $0 traité avec succès</Message>
             <Message id="500">$0 modèle(s) numérique(s) chargé(s) avec succès</Message>
             <Message id="550">$0 unité(s) utilisable(s) dans la librairie</Message>

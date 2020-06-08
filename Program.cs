@@ -6,13 +6,14 @@ namespace CLtool
 {
 
 
+
     class Program
     {
 
 
+
         static void Main(string[] args)
         {
-
             AeroCalcCommandProcessor CommandProcessor = new AeroCalcCommandProcessor();
             AeroCalcCommand Command;
             bool run = true;
@@ -48,15 +49,16 @@ namespace CLtool
                     while (DateTime.Now.Second < instant.Second) { }
                     break;
                 }
-                // Prompt
-                Console.Write("--o-Ô-o--");
-                // Lecture de la console et transfert vers le processeur de commande
+                // Prompt & Lecture
+                Console.Write("--o-Ô-o-- ");
                 Command = CommandProcessor.process(Console.ReadLine());
 
 
 
                 // * DEBUG
                 /*
+                Command = CommandProcessor.process("VERBOSE");
+                Console.WriteLine(Command.txtResult);
                 Command = CommandProcessor.process("LOAD MODEL *");
                 Console.WriteLine(Command.txtResult);
                 run = false;
