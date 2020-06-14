@@ -9,64 +9,71 @@ $0, $1, ... sont les codes substitués avec les informations fournies par le pro
 
 -->
 <Application name="AeroCalcCore">
-    <LanguagePack name="FR">
-        <Messages>
-            <Message id="10">Fermeture de AeroCalc Command Line...</Message>
-            <Message id="100">Commande traitée avec succès</Message>
-            <Message id="110">*****************************************
-                              *              AeroCalc CL              *
-                              *                                       *
-                              * Flight Performance Computer           *
-                              * Command Line version                  *
-                              *                                       *
-                              * PetitLu AeroDevelopment (c) 2020      *
-                              *                                       *
-                              *****************************************</Message>
-            <Message id="910">Mode VERBOSE activé</Message>
-            <Message id="911">Mode VERBOSE désactivé</Message>
-            <Message id="912">Mode VERBOSE déjà activé</Message>
-            <Message id="200">Calcul $0 traité avec succès</Message>
-            <Message id="400">$0 modèle(s) numérique(s) chargé(s) avec succès</Message>
-            <Message id="500">Ficher de script $0 traité avec succès</Message>
-            <Message id="550">$0 unité(s) utilisable(s) dans la librairie</Message>
-            <Message id="10001">Echec de l'intialisation du processeur</Message>
-            <Message id="10002">Impossible d'initialiser le processeur une seconde fois</Message>
-            <Message id="10003">Initialisation impossible, pas de fichier de configuration</Message>
-            <Message id="10004">Initialisation impossible, erreur de lecture du fichier de configuration $0</Message>
-            <Message id="10005">Initialisation impossible, erreur non reconnue lors de l'accès au fichier de configuration $0</Message>
-            <Message id="10006">Initialisation impossible, erreur non reconnue lors de la configuration</Message>
-            <Message id="10007">Initialisation impossible, erreur lors de la lecture du fichier des unités $0</Message>
-            <Message id="10008">Initialisation impossible, erreur lors de la lecture du fichier du pack de langue $0</Message>
-            <Message id="10010">Commande non traitée</Message>
-            <Message id="10012">Lecture du fichier de script impossible, le fichier $0 n'existe pas</Message>
-            <Message id="10013">Lecture du fichier de script impossible, erreur dans le chemin : $0</Message>
-            <Message id="10014">Lecture du fichier de script impossible, erreur lors de la lecture du fichier $0</Message>
-            <Message id="10015">Lecture du fichier de script impossible, erreur non reconnue lors de l'opération</Message>
-            <Message id="10016">Lecture du fichier de script impossible, erreur non connue</Message>
-            <Message id="10017">Lecture du fichier de script impossible, Le fichier $0 n'est pas accessible en lecture</Message>
-            <Message id="10018">Une erreur s'est produite lors de la lecture du fichier de script $0</Message>
-            <!-- Message id="10020">La commande n'a pas pu être traitée, erreur dans le processeur</Message -->
-            <Message id="10021">La commande est vide</Message>
-            <Message id="10022">La commande n'est pas reconnue</Message>
-            <Message id="10023">La commande n'est pas supportée par cette version du logiciel</Message>
-            <Message id="10030">Le dictionnaire des unités est vide</Message>
-            <Message id="10050">Impossible de modifier le mode VERBOSE, celui-ci est vérouillé</Message>
-            <Message id="10100">Commande non traitée, erreur majeure du processeur de commande</Message>
-            <Message id="10110">Calcul non traité, erreur du processeur de calcul</Message>
-            <Message id="10111">Calcul non traité, facteur $0 manquant</Message>
-            <Message id="10112">Calcul non traité, modèle numérique $0 manquant</Message>
-            <Message id="10200">Aucune unité n'est chargée en mémoire</Message>
-            <Message id="10500">Aucun modèle de calcul n'est chargé en mémoire</Message>
-            <Message id="900">************  AeroCalc  HELP  ************
-                              Commands:
-                              HELP         : Obtenir de l'aide
-                              VERBOSE      : Mode fournissant des informations étendues pendant le traitement des commandes
-                              CONVERT      : Conversion entre différentes unités
-                              LOAD MODEL   : Chargement des modèles numériques
-                              LIST MODEL   : Liste des modèles numériques en mémoire
-                              LIST UNIT    : Liste des unités utilisables
-                              CATALOG      : Liste des modèles numériques présant dans le répertoire des modèles et pouvant être chargés en mémoire
-                              EXIT         : Quitter AeroCalc</Message>
-        </Messages>
-    </LanguagePack>
+  <LanguagePack name="FR">
+    <Messages>
+      <Message id="10">Fermeture de AeroCalc Command Line...</Message>
+      <Message id="100">Commande traitée avec succès</Message>
+      <Message id="110">
+        *****************************************
+        *              AeroCalc CL              *
+        *                                       *
+        * Flight Performance Computer           *
+        * Command Line version                  *
+        *                                       *
+        * PetitLu AeroDevelopment (c) 2020      *
+        *                                       *
+        *****************************************
+      </Message>
+      <Message id="910">Mode VERBOSE activé</Message>
+      <Message id="911">Mode VERBOSE désactivé</Message>
+      <Message id="912">Mode VERBOSE déjà activé</Message>
+      <Message id="200">Calcul $0 traité avec succès</Message>
+      <Message id="210">Mémoire $0 contient $1</Message>
+      <Message id="400">$0 modèle(s) numérique(s) chargé(s) avec succès</Message>
+      <Message id="500">Ficher de script $0 traité avec succès</Message>
+      <Message id="550">$0 unité(s) utilisable(s) dans la librairie</Message>
+      <Message id="10001">Echec de l'intialisation du processeur</Message>
+      <Message id="10002">Impossible d'initialiser le processeur une seconde fois</Message>
+      <Message id="10003">Initialisation impossible, pas de fichier de configuration</Message>
+      <Message id="10004">Initialisation impossible, erreur de lecture du fichier de configuration $0</Message>
+      <Message id="10005">Initialisation impossible, erreur non reconnue lors de l'accès au fichier de configuration $0</Message>
+      <Message id="10006">Initialisation impossible, erreur non reconnue lors de la configuration</Message>
+      <Message id="10007">Initialisation impossible, erreur lors de la lecture du fichier des unités $0</Message>
+      <Message id="10008">Initialisation impossible, erreur lors de la lecture du fichier du pack de langue $0</Message>
+      <Message id="10010">Commande non traitée</Message>
+      <Message id="10012">Lecture du fichier de script impossible, le fichier $0 n'existe pas</Message>
+      <Message id="10013">Lecture du fichier de script impossible, erreur dans le chemin : $0</Message>
+      <Message id="10014">Lecture du fichier de script impossible, erreur lors de la lecture du fichier $0</Message>
+      <Message id="10015">Lecture du fichier de script impossible, erreur non reconnue lors de l'opération</Message>
+      <Message id="10016">Lecture du fichier de script impossible, erreur non connue</Message>
+      <Message id="10017">Lecture du fichier de script impossible, Le fichier $0 n'est pas accessible en lecture</Message>
+      <Message id="10018">Une erreur s'est produite lors de la lecture du fichier de script $0</Message>
+      <Message id="10019">Aucune commande disponible dans le fichier de script $0</Message>
+      <!-- Message id="10020">La commande n'a pas pu être traitée, erreur dans le processeur</Message -->
+      <Message id="10021">La commande est vide</Message>
+      <Message id="10022">La commande n'est pas reconnue</Message>
+      <Message id="10023">La commande n'est pas supportée par cette version du logiciel</Message>
+      <Message id="10030">Le dictionnaire des unités est vide</Message>
+      <Message id="10050">Impossible de modifier le mode VERBOSE, celui-ci est vérouillé</Message>
+      <Message id="10100">Commande non traitée, erreur majeure du processeur de commande</Message>
+      <Message id="10110">Calcul non traité, erreur du processeur de calcul</Message>
+      <Message id="10111">Calcul non traité, facteur $0 manquant</Message>
+      <Message id="10112">Calcul non traité, modèle numérique $0 manquant</Message>
+      <Message id="10115">Erreur de mise en mémoire, la mémoire $0 et la valeur $1 sont perdues</Message>
+      <Message id="10200">Aucune unité n'est chargée en mémoire</Message>
+      <Message id="10500">Aucun modèle de calcul n'est chargé en mémoire</Message>
+      <Message id="900">
+        ************  AeroCalc  HELP  ************
+        Commands:
+        HELP         : Obtenir de l'aide
+        VERBOSE      : Mode fournissant des informations étendues pendant le traitement des commandes
+        CONVERT      : Conversion entre différentes unités
+        LOAD MODEL   : Chargement des modèles numériques
+        LIST MODEL   : Liste des modèles numériques en mémoire
+        LIST UNIT    : Liste des unités utilisables
+        CATALOG      : Liste des modèles numériques présant dans le répertoire des modèles et pouvant être chargés en mémoire
+        EXIT         : Quitter AeroCalc
+      </Message>
+    </Messages>
+  </LanguagePack>
 </Application>

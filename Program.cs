@@ -23,7 +23,7 @@ namespace CLtool
             if (args.Length == 0)
             {
                 // Default configuration file path
-                cmdLineOptions = "config" + Path.DirectorySeparatorChar + "config.xml";
+                cmdLineOptions += "config" + Path.DirectorySeparatorChar + "config.xml";
             }
             else
             {

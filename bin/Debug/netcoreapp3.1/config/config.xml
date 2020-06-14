@@ -13,7 +13,7 @@
         </Directories>
         <Files>
             <!--File name="Units">UnitsDictionary.csv</File-->
-            <File name="Units">UnitsDictionary.xml</File>
+            <File name="Units">units.xml</File>
         </Files>
         <Languages>
             <Language shortname="FR" name="french">fr.xml</Language>
