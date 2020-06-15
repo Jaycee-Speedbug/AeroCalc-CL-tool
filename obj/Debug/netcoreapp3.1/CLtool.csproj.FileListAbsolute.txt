@@ -22,6 +22,7 @@ C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\bin\Debug\
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\bin\Debug\netcoreapp3.1\CLtool.pdb
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\bin\Debug\netcoreapp3.1\AeroCalcCore.dll
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\bin\Debug\netcoreapp3.1\AeroCalcCore.pdb
+C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\netcoreapp3.1\CLtool.csprojAssemblyReference.cache
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\netcoreapp3.1\CLtool.AssemblyInfoInputs.cache
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\netcoreapp3.1\CLtool.AssemblyInfo.cs
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\netcoreapp3.1\CLtool.csproj.CoreCompileInputs.cache
@@ -29,4 +30,3 @@ C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\netcoreapp3.1\CLtool.dll
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\netcoreapp3.1\CLtool.pdb
 C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\netcoreapp3.1\CLtool.genruntimeconfig.cache
-C:\Users\ZenBookDeLu\Documents\ITDevelopment\Projects\AeroCalc\CLtool\obj\Debug\netcoreapp3.1\CLtool.csprojAssemblyReference.cache

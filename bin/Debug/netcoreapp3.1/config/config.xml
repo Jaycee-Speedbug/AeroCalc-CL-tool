@@ -18,6 +18,8 @@
         <Languages>
             <Language shortname="FR" name="french">fr.xml</Language>
             <Language shortname="EN" name="english">en.xml</Language>
+			<Language shortname="ES" name="español">es.xml</Language>
+			<Language shortname="DE" name="deutsch">de.xml</Language>
         </Languages>
     </Configuration>
     <Settings>

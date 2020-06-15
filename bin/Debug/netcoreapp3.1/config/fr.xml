@@ -24,14 +24,15 @@ $0, $1, ... sont les codes substitués avec les informations fournies par le pro
         *                                       *
         *****************************************
       </Message>
-      <Message id="910">Mode VERBOSE activé</Message>
-      <Message id="911">Mode VERBOSE désactivé</Message>
-      <Message id="912">Mode VERBOSE déjà activé</Message>
       <Message id="200">Calcul $0 traité avec succès</Message>
       <Message id="210">Mémoire $0 contient $1</Message>
+	  <Message id="300">Prise en charge de la langue : $0   Nom du package : $1.</Message>
       <Message id="400">$0 modèle(s) numérique(s) chargé(s) avec succès</Message>
       <Message id="500">Ficher de script $0 traité avec succès</Message>
       <Message id="550">$0 unité(s) utilisable(s) dans la librairie</Message>
+      <Message id="910">Mode VERBOSE activé</Message>
+      <Message id="911">Mode VERBOSE désactivé</Message>
+      <Message id="912">Mode VERBOSE déjà activé</Message>
       <Message id="10001">Echec de l'intialisation du processeur</Message>
       <Message id="10002">Impossible d'initialiser le processeur une seconde fois</Message>
       <Message id="10003">Initialisation impossible, pas de fichier de configuration</Message>
@@ -61,6 +62,18 @@ $0, $1, ... sont les codes substitués avec les informations fournies par le pro
       <Message id="10112">Calcul non traité, modèle numérique $0 manquant</Message>
       <Message id="10115">Erreur de mise en mémoire, la mémoire $0 et la valeur $1 sont perdues</Message>
       <Message id="10200">Aucune unité n'est chargée en mémoire</Message>
+	  <Message id="10301">Impossible de déterminer le package de langue en service</Message>
+	  <Message id="10302">Impossible de mettre en service le package de langue demandé : $0, celui ci n'existe pas</Message>
+	  <Message id="10303">Impossible de mettre en service le package de langue demandé : $0, celui ci n'est pas autorisé</Message>
+	  <Message id="10304">Le package de langue demandé : $0, est déjà en service</Message>
+      <Message id="10312">Lecture du fichier de langue $0 impossible, le fichier n'existe pas</Message>
+      <Message id="10313">Lecture du fichier de langue $0 impossible, erreur dans le chemin : $1</Message>
+      <Message id="10314">Lecture du fichier de langue $0 impossible, erreur lors de la lecture</Message>
+      <Message id="10315">Lecture du fichier de langue $0 impossible, erreur non reconnue lors de l'opération</Message>
+      <Message id="10316">Lecture du fichier de langue $0 impossible, erreur non reconnue</Message>
+      <Message id="10317">Lecture du fichier de langue $0 impossible, le fichier n'est pas accessible en lecture</Message>
+      <Message id="10318">Une erreur s'est produite lors de la lecture du fichier de langue $0</Message>
+      <Message id="10319">Aucune donnée exploitable dans le fichier de langue $0</Message>
       <Message id="10500">Aucun modèle de calcul n'est chargé en mémoire</Message>
       <Message id="900">
         ************  AeroCalc  HELP  ************
