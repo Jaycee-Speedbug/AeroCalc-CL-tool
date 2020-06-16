@@ -27,9 +27,11 @@ $0, $1, ... sont les codes substitués avec les informations fournies par le pro
       <Message id="200">Calcul $0 traité avec succès</Message>
       <Message id="210">Mémoire $0 contient $1</Message>
 	  <Message id="300">Prise en charge de la langue : $0   Nom du package : $1.</Message>
+	  <Message id="301">Changement de langue réussi : $0   Nom du package : $1.</Message>
       <Message id="400">$0 modèle(s) numérique(s) chargé(s) avec succès</Message>
       <Message id="500">Ficher de script $0 traité avec succès</Message>
       <Message id="550">$0 unité(s) utilisable(s) dans la librairie</Message>
+      <Message id="560">Fin de la liste des langues utilisables</Message>
       <Message id="910">Mode VERBOSE activé</Message>
       <Message id="911">Mode VERBOSE désactivé</Message>
       <Message id="912">Mode VERBOSE déjà activé</Message>
