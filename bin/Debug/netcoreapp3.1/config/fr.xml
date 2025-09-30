@@ -94,6 +94,8 @@ $0, $1, ... sont les codes substitués avec les informations fournies par le pro
 			<Message id="10317">Lecture du fichier de langue $0 impossible, le fichier n'est pas accessible en lecture</Message>
 			<Message id="10318">Une erreur s'est produite lors de la lecture du fichier de langue $0</Message>
 			<Message id="10319">Aucune donnée exploitable dans le fichier de langue $0</Message>
+			<Message id="10320">La version du package de langue $0 est ancienne. Installez les packages de langue à jour</Message>
+			<Message id="10321">Le fichier du package de langue demandé ne semble pas correspondre à la bonne langue</Message>
 			<Message id="10500">Aucun modèle de calcul n'est chargé en mémoire</Message>
     </Messages>
   </LanguagePack>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CLtool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+265e13b79f5dff00cf9a445d48c25c9a06bfd180")]
 [assembly: System.Reflection.AssemblyProductAttribute("CLtool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CLtool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
