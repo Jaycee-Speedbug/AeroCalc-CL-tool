@@ -1,6 +1,6 @@
-﻿using System;
+﻿using AeroCalcCore;
+using System;
 using System.IO;
-using AeroCalcCore;
 
 namespace CLtool
 {
